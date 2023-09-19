@@ -1,5 +1,5 @@
 const securityHeaders = require("./configs/securityHeaders");
-const imageDomains = require("./configs/imageDomains");
+// const imageDomains = require("./configs/imageDomains");
 
 const withBundleAnalyzer = require("@next/bundle-analyzer")({
   enabled: process.env.ANALYZE === "true",
